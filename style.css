@@ -179,12 +179,21 @@ section#contact {
 }
 
 .card-container p {
-  font-size: 20px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.card-container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
   align-items: center;
 }
 
 .card-container img {
-  width: 20px;
+  display: inline-block;
+  object-fit: contain;
+  width: 30px;
   justify-content: center;
   padding: 10px;
   filter: invert(100%);
