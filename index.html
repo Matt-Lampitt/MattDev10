@@ -35,7 +35,7 @@
       <h1>Hi, I'm Matt</h1>
       <p>I am a web developer based in Overland Park, Kansas.
       </p>
-      <a href="#about"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
+      <a class="arrow" href="#about"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
 
     </section>
     <section id="about">
@@ -48,7 +48,7 @@
         I am a proud, long-time supporter, of Fulham FC and contribute as a video content creator for supporter-site
         Fulham Focus. I also have a YouTube channel dedicated to realistic sports gaming in video games.
       </p>
-      <a href="#skills"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
+      <a class="arrow" href="#skills"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
     </section>
     <section id="skills">
       <h1>Skills I have learned</h1>
@@ -65,7 +65,7 @@
         <img src="/images/mysql.png" alt="">
       </div>
       </p>
-      <a href="#projects"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
+      <a class="arrow" href="#projects"><img src="/images/circle-down-solid.png" alt="" width="50" height="50"></a>
     </section>
     <section id="projects">
       <h1>Projects I have built</h1>
@@ -132,20 +132,38 @@
     <section id="contact">
       <div class="form-group">
         <h1>Want to connect?</h1>
-        <img src="/images/envelope-regular 1.svg" alt="" width="30%">
-        <div class="form-container">
-          <input type="text" id="fname" name="firstname" placeholder="First Name">
-
-          <input type="text" id="lname" name="lastname" placeholder="Last Name">
-
-          <input type="text" id="mail" name="email" placeholder="Email">
-
-          <textarea name="subject" id="subject" placeholder="Message" style="height:200px"></textarea>
-
-          <input type="submit" value="Send Message">
-        </div>
+        <img src="/images/envelope-regular 1.svg" alt="" width="10%">
       </div>
-        <a href="#home"><img src="/images/circle-up-solid.png" alt="" width="50" height="50"></a>
+      <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Phone Number</label> 
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Send Message</div>
+          </div>
+      </div>
+      <a class="top-arrow" href="#home"><img src="/images/circle-up-solid.png" alt="" width="50" height="50"></a>
     </section>
   </div>
   </div>
