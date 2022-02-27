@@ -23,9 +23,12 @@
     </nav>
     <div class="side-logos">
       <ul>
-        <li><a href="#"><img id="linkedin-logo" src="/images/linkedin-brands 1.svg" alt="linkedin logo"> </a></li>
-        <li><a href="#"> <img id="github-logo" src="/images/github-brands 1.svg" alt="github logo"></a></li>
-        <li><a href="#"> <img src="/images/envelope-regular 1.svg" alt="email logo"></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/mattlampitt/"><img id="linkedin-logo"
+              src="/images/linkedin-brands 1.svg" alt="linkedin logo"> </a></li>
+        <li><a target="_blank" href="https://github.com/Matt-Lampitt"> <img id="github-logo"
+              src="/images/github-brands 1.svg" alt="github logo"></a></li>
+        <li><a target="_blank" href="mlampitt10@gmail.com"> <img src="/images/envelope-regular 1.svg"
+              alt="email logo"></a></li>
       </ul>
     </div>
     <section id="home">
@@ -120,11 +123,19 @@
       </div>
     </section>
     <section id="contact">
-      <h1>Contact me</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo suscipit dolore, omnis sequi optio commodi
-        nesciunt nostrum, sapiente tenetur fugit quas, cumque eligendi nobis quos vero odit. Tempore, molestias
-        explicabo.
-      </p>
+      <div class="form-container">
+        <h1>Contact me</h1>
+        <form action="">
+          
+          <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+          <input type="text" id="lname" name="lastname" placeholder="You last name...">
+
+          <textarea name="subject" id="subject" placeholder="Your message..." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </section>
   </div>
   </div>

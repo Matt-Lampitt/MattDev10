@@ -236,3 +236,19 @@ section#contact {
   background-image: url('/images/contact-bg.jpg');
   background-size: cover;
 }
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.192);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-container input[type=text], select, textarea {
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 40px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: larger;
+}
