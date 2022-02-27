@@ -14,6 +14,7 @@
   <div class="container">
     <nav class="nav-group">
       <ul class="navbar">
+        <li><img id="matt10-logo" src="/images/white_logo_transparent_background.png" alt=""></li>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -27,7 +28,7 @@
               src="/images/linkedin-brands 1.svg" alt="linkedin logo"> </a></li>
         <li><a target="_blank" href="https://github.com/Matt-Lampitt"> <img id="github-logo"
               src="/images/github-brands 1.svg" alt="github logo"></a></li>
-        <li><a target="_blank" href="mlampitt10@gmail.com"> <img src="/images/envelope-regular 1.svg"
+        <li><a href="#contact"> <img src="/images/envelope-regular 1.svg"
               alt="email logo"></a></li>
       </ul>
     </div>
@@ -35,6 +36,7 @@
       <h1>Hi, I'm Matt</h1>
       <p>I am a web developer based in Overland Park, Kansas.
       </p>
+      <img id="down-arrow" src="/images/circle-down-solid.png" alt="">
     </section>
     <section id="about">
       <h1>About Me</h1>
@@ -92,8 +94,9 @@
               <li><a href=""><img src="/images/code-solid.png" alt="source-code">Code</a></li>
             </ul>
             <h4><b>ADminiZOOM</b></h4>
-            <p>This is a client website that has an end-goal of e-commerce, but for now it showcase products and
-              services, with an included contact form. I used React, NodeJS, Express and MongoDB.</p>
+            <p>This website uses Zoom's REST API with the goal of allowing admins to login through OAuth, view, create
+              and update Users, Meetings and Webinars. I have also included a link to a blog that discusses Zoom's API
+              and how to use it with Postman.</p>
             <ul class="tech-stack">
               <li>React</li>
               <li>NodeJS</li>
@@ -110,8 +113,9 @@
               <li><a href=""><img src="/images/code-solid.png" alt="source-code">Code</a></li>
             </ul>
             <h4><b>Atlas Career Institute</b></h4>
-            <p>This is a client website that has an end-goal of e-commerce, but for now it showcase products and
-              services, with an included contact form. I used React, NodeJS, Express and MongoDB.</p>
+            <p>This is a website of a fictional career institute that uses a custom Wordpress configuration. It allows
+              visitors to view the website's contents and submit a contact form for more information on how to enroll.
+            </p>
             <ul class="tech-stack">
               <li>React</li>
               <li>NodeJS</li>
@@ -123,18 +127,20 @@
       </div>
     </section>
     <section id="contact">
-      <div class="form-container">
-        <h1>Contact me</h1>
-        <form action="">
-          
-          <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+      <div class="form-group">
+        <h1>Want to connect?</h1>
+        <img src="/images/envelope-regular 1.svg" alt="" width="30%">
+        <div class="form-container">
+            <input type="text" id="fname" name="firstname" placeholder="First Name">
 
-          <input type="text" id="lname" name="lastname" placeholder="You last name...">
+            <input type="text" id="lname" name="lastname" placeholder="Last Name">
 
-          <textarea name="subject" id="subject" placeholder="Your message..." style="height:200px"></textarea>
+            <input type="text" id="mail" name="email" placeholder="Email">
 
-          <input type="submit" value="Submit">
-        </form>
+            <textarea name="subject" id="subject" placeholder="Message" style="height:200px"></textarea>
+
+            <input type="submit" value="Send Message">
+        </div>
       </div>
     </section>
   </div>

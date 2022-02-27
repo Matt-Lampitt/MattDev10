@@ -24,6 +24,15 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+#down-arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: 500px;
+  width: 3%;
+}
+
 .nav-group {
   position: fixed;
   right: 0;
@@ -59,6 +68,11 @@ html {
   background-color: rgb(105, 7, 7);
 }
 
+#matt10-logo {
+  width: 10%;
+  float: right;
+}
+
 .side-logos {
   position: fixed;
   float: left;
@@ -67,19 +81,20 @@ html {
 .side-logos li {
   list-style-type: none;
   padding: 25px;
-  margin-top: 20px;
+  margin-top: 200px;
+}
+
+.side-logos li a:hover {
+  background: rgb(105, 7, 7);
+  transition: 0.5s ease-in-out;
+  border-radius: 30px;
+  transform: scaleY(1);
 }
 
 #linkedin-logo {
   width: 3rem;
   color: white;
   list-style-type: none;
-}
-
-#mattdev10-logo {
-  position: absolute;
-  opacity: 5%;
-  max-width: 100%;
 }
 
 section {
@@ -106,7 +121,6 @@ section p {
 /* Section images here */
 
 section#home {
-  background-image: url("/images/mattdev10logomask.png");
   background-size: cover;
 }
 
@@ -167,6 +181,8 @@ section#projects {
 .card-container {
   display: inline-block;
   justify-content:space-around;
+  max-width: 550px;
+  max-height: 500px;
 }
 
 .card-container h4 {
@@ -179,6 +195,7 @@ section#projects {
   align-items: left;
   width: 100%;
   text-align: left;
+  height: 150px;
 }
 
 .card-container img {
@@ -237,8 +254,13 @@ section#contact {
   background-size: cover;
 }
 
+.form-group h1 {
+  margin-bottom: 180px;
+}
+
 .form-container {
-  background-color: rgba(0, 0, 0, 0.192);
+  width: 50%;
+  float: right;
   padding: 10px;
   border-radius: 10px;
 }
@@ -251,4 +273,16 @@ section#contact {
   height: 40px;
   font-family: 'Bebas Neue', cursive;
   font-size: larger;
+}
+
+.form-container input[type=submit] {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+}
+
+.form-container input[type=submit]:hover {
+  border-radius: 50px;
+  background-color: rgb(105, 7, 7);
+  transition: 0.5s;
 }
