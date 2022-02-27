@@ -138,56 +138,47 @@ section#skills {
   max-width: 20%;
 }
 
-
 section#projects {
   background-image: url('/images/projects-bg.jpg');
   background-size: cover;
 }
 
-.project-cards {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  justify-items: center;
-}
-
-.project-cards p {
-  font-size: 20px;
-}
-
-.project-cards img {
-  width: 20%;
-}
-
-section#contact {
-  background-image: url('/images/contact-bg.jpg');
-  background-size: cover;
-}
+/* Project cards */
 
 .card-group {
   display: flex;
-  width: 50%;
+  width: 70%;
+  background: rgba(0, 0, 0, 0.089);
+  border-radius: 10px;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card img {
+  border-radius: 10px;
 }
 
 .card-container {
   display: inline-block;
-  padding: 20px 20px;
+  justify-content:space-around;
 }
 
 .card-container h4 {
   font-size: 30px;
+  margin-top: 50px;
 }
 
 .card-container p {
   font-size: 15px;
-  align-items: center;
-}
-
-.card-container button {
-  width: 100px;
-  height: 50px;
-  border-radius: 20px;
-  align-items: center;
+  align-items: left;
+  width: 100%;
+  text-align: left;
 }
 
 .card-container img {
@@ -196,16 +187,52 @@ section#contact {
   width: 30px;
   justify-content: center;
   padding: 10px;
-  filter: invert(100%);
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
+
+.card-preview ul {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  margin: auto;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card-preview li {
+  display: inline-block;
+  background-color: rgb(37, 36, 36);
+  justify-content: space-between;
+  width: 35%;
+  border-radius: 10px;
+  font-weight: bold;
+  align-items: center;
+  cursor: grab;
 }
 
+.card-preview li:hover {
+  background-color: rgb(105, 7, 7);
+  transition: 0.5s;
+}
+
+.card-preview li img {
+  vertical-align: middle;
+}
+
+.card-preview a {
+  text-decoration: none;
+  color: white;
+}
+
+.tech-stack li {
+  display: inline-block;
+  max-width: 80px;
+  padding: 20px;
+  background-color: rgb(37, 36, 36);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: default;
+}
+
+section#contact {
+  background-image: url('/images/contact-bg.jpg');
+  background-size: cover;
+}
