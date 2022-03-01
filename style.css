@@ -350,8 +350,19 @@ textarea {
             0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  section#home h1,#about h1, #skills h1, #projects h1, #contact h1 {
+    font-size: 70px;
+  }
 
+  section#home p {
+    font-size: 40px;
+  }
+
+  section#about p {
+    font-size: 20px;
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 835px) and (max-width: 1200px)
@@ -372,6 +383,10 @@ textarea {
   section#about p {
     font-size: 20px;
     width: 80%;
+  }
+
+  #skills-img-group {
+    grid-gap: 20px;
   }
 
   section#projects h1 {
@@ -420,6 +435,10 @@ textarea {
   section#about p {
     font-size: 20px;
     width: 80%;
+  }
+
+  #skills-img-group {
+    grid-gap: 20px;
   }
 
   section#projects .card-group, .card,.card-container,.card-preview, ul, li {
@@ -507,8 +526,8 @@ textarea {
     font-size: 40px;
   }
 
-  section#skills img {
-    width: 30px;
+  #skills-img-group {
+    grid-gap: 10px;
   }
 
   section#projects .card-group, .card,.card-container,.card-preview, ul, li {
