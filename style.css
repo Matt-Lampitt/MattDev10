@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  background: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.5)) , url(/images/home-bg.jpg) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.027),rgba(0, 0, 0, 0.5)) , url(/images/home-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
