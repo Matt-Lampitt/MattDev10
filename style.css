@@ -141,6 +141,11 @@ section#about p {
   width: 25%;
 }
 
+section#about a {
+  color: white;
+  background-color: black;
+}
+
 section#skills {
   background-image: url('/images/skills-bg.jpg');
   background-size: cover;
